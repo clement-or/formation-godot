@@ -1,0 +1,374 @@
+[gd_scene load_steps=63 format=2]
+
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineDefaultA.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineDefaultB.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineGroundA.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palmTall.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_blocks_dark.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_cone_dark.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_default_dark.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_fat.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/Models/Environment/Trees/leafs.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_detailed_fall.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_fat_darkh.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_fat_fall.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_detailed.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_oak.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_default.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_oak_dark.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_detailed_dark.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://Assets/Models/Environment/Trees/leafs 2.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_blocks_fall.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_blocks.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_cone.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_cone_fall.mesh" type="ArrayMesh" id=22]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_default_fall.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palmDetailedTall.mesh" type="ArrayMesh" id=24]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palm.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palmShort.mesh" type="ArrayMesh" id=26]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palmBend.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_oak_fall.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_palmDetailedShort.mesh" type="ArrayMesh" id=29]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineGroundB.mesh" type="ArrayMesh" id=30]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineRoundC.mesh" type="ArrayMesh" id=31]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineRoundF.mesh" type="ArrayMesh" id=32]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineRoundB.mesh" type="ArrayMesh" id=33]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallC_detailed.mesh" type="ArrayMesh" id=34]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallD_detailed.mesh" type="ArrayMesh" id=35]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_thin_fall.mesh" type="ArrayMesh" id=36]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_thin_dark.mesh" type="ArrayMesh" id=37]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineSmallC.mesh" type="ArrayMesh" id=38]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallB.mesh" type="ArrayMesh" id=39]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_small_fall.mesh" type="ArrayMesh" id=40]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_plateau.mesh" type="ArrayMesh" id=41]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineSmallB.mesh" type="ArrayMesh" id=42]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallA_detailed.mesh" type="ArrayMesh" id=43]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_plateau_fall.mesh" type="ArrayMesh" id=44]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_tall_fall.mesh" type="ArrayMesh" id=45]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineRoundA.mesh" type="ArrayMesh" id=46]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallD.mesh" type="ArrayMesh" id=47]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallB_detailed.mesh" type="ArrayMesh" id=48]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineRoundE.mesh" type="ArrayMesh" id=49]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_small.mesh" type="ArrayMesh" id=50]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_thin.mesh" type="ArrayMesh" id=51]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_plateau_dark.mesh" type="ArrayMesh" id=52]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_simple_dark.mesh" type="ArrayMesh" id=53]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallC.mesh" type="ArrayMesh" id=54]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_tall_dark.mesh" type="ArrayMesh" id=55]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineTallA.mesh" type="ArrayMesh" id=56]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_simple_fall.mesh" type="ArrayMesh" id=57]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_small_dark.mesh" type="ArrayMesh" id=58]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_tall.mesh" type="ArrayMesh" id=59]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_simple.mesh" type="ArrayMesh" id=60]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineSmallA.mesh" type="ArrayMesh" id=61]
+[ext_resource path="res://Assets/Models/Environment/Trees/tree_pineSmallD.mesh" type="ArrayMesh" id=62]
+
+[node name="Trees" type="Spatial"]
+
+[node name="leafs 2" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+
+[node name="leafs" type="MeshInstance" parent="."]
+mesh = ExtResource( 9 )
+material/0 = null
+
+[node name="tree_blocks" type="MeshInstance" parent="."]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+
+[node name="tree_blocks_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+
+[node name="tree_blocks_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone" type="MeshInstance" parent="."]
+mesh = ExtResource( 21 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+
+[node name="tree_detailed" type="MeshInstance" parent="."]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_detailed_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_detailed_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_fat" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+
+[node name="tree_fat_darkh" type="MeshInstance" parent="."]
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+
+[node name="tree_fat_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak" type="MeshInstance" parent="."]
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 28 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palm" type="MeshInstance" parent="."]
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmBend" type="MeshInstance" parent="."]
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmDetailedShort" type="MeshInstance" parent="."]
+mesh = ExtResource( 29 )
+material/0 = null
+
+[node name="tree_palmDetailedTall" type="MeshInstance" parent="."]
+mesh = ExtResource( 24 )
+material/0 = null
+
+[node name="tree_palmShort" type="MeshInstance" parent="."]
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmTall" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineDefaultA" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineDefaultB" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineGroundA" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = null
+
+[node name="tree_pineGroundB" type="MeshInstance" parent="."]
+mesh = ExtResource( 30 )
+material/0 = null
+
+[node name="tree_pineRoundA" type="MeshInstance" parent="."]
+mesh = ExtResource( 46 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundB" type="MeshInstance" parent="."]
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_pineRoundC" type="MeshInstance" parent="."]
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundE" type="MeshInstance" parent="."]
+mesh = ExtResource( 49 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundF" type="MeshInstance" parent="."]
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallA" type="MeshInstance" parent="."]
+mesh = ExtResource( 61 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallB" type="MeshInstance" parent="."]
+mesh = ExtResource( 42 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallC" type="MeshInstance" parent="."]
+mesh = ExtResource( 38 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallD" type="MeshInstance" parent="."]
+mesh = ExtResource( 62 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallA" type="MeshInstance" parent="."]
+mesh = ExtResource( 56 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallA_detailed" type="MeshInstance" parent="."]
+mesh = ExtResource( 43 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallB" type="MeshInstance" parent="."]
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallB_detailed" type="MeshInstance" parent="."]
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallC" type="MeshInstance" parent="."]
+mesh = ExtResource( 54 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallC_detailed" type="MeshInstance" parent="."]
+mesh = ExtResource( 34 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallD" type="MeshInstance" parent="."]
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallD_detailed" type="MeshInstance" parent="."]
+mesh = ExtResource( 35 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau" type="MeshInstance" parent="."]
+mesh = ExtResource( 41 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 44 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple" type="MeshInstance" parent="."]
+mesh = ExtResource( 60 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 57 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small" type="MeshInstance" parent="."]
+mesh = ExtResource( 50 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 58 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall" type="MeshInstance" parent="."]
+mesh = ExtResource( 59 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 55 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin" type="MeshInstance" parent="."]
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin_dark" type="MeshInstance" parent="."]
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin_fall" type="MeshInstance" parent="."]
+mesh = ExtResource( 36 )
+material/0 = null
+material/1 = null

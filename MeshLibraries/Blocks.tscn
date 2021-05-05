@@ -1,0 +1,334 @@
+[gd_scene load_steps=57 format=2]
+
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockHalf_rock.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockHalf_stone.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockQuarter_rock.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockQuarter_stone.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlopeHalfWalls_rock.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlopeWalls_stone.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlope_stone.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockCave_rock.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_block_rock.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_block_stone.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cave_rock.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cave_stone.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlopeWalls_rock.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInnerLarge_rock.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlope_rock.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInnerLarge_stone.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockDiagonal_rock.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInnerTop_rock.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInnerTop_stone.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockSlopeHalfWalls_stone.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockDiagonal_stone.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_blockCave_stone.mesh" type="ArrayMesh" id=22]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_top_rock.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_waterfallTop_stone.mesh" type="ArrayMesh" id=24]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_top_stone.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_halfCornerInner_rock.mesh" type="ArrayMesh" id=26]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_waterfall_rock.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_large_stone.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_diagonal_rock.mesh" type="ArrayMesh" id=29]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_corner_stone.mesh" type="ArrayMesh" id=30]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_halfCornerInner_stone.mesh" type="ArrayMesh" id=31]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_halfCorner_stone.mesh" type="ArrayMesh" id=32]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_stepsCorner_stone.mesh" type="ArrayMesh" id=33]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_diagonal_stone.mesh" type="ArrayMesh" id=34]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_steps_rock.mesh" type="ArrayMesh" id=35]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_stone.mesh" type="ArrayMesh" id=36]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_topDiagonal_rock.mesh" type="ArrayMesh" id=37]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_topDiagonal_stone.mesh" type="ArrayMesh" id=38]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_waterfall_stone.mesh" type="ArrayMesh" id=39]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_stepsCorner_rock.mesh" type="ArrayMesh" id=40]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_halfCorner_rock.mesh" type="ArrayMesh" id=41]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_half_rock.mesh" type="ArrayMesh" id=42]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_corner_rock.mesh" type="ArrayMesh" id=43]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_stepsCornerInner_rock.mesh" type="ArrayMesh" id=44]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_stepsCornerInner_stone.mesh" type="ArrayMesh" id=45]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_steps_stone.mesh" type="ArrayMesh" id=46]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerTop_stone.mesh" type="ArrayMesh" id=47]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerLarge_stone.mesh" type="ArrayMesh" id=48]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_large_rock.mesh" type="ArrayMesh" id=49]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_rock.mesh" type="ArrayMesh" id=50]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_half_stone.mesh" type="ArrayMesh" id=51]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_waterfallTop_rock.mesh" type="ArrayMesh" id=52]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerTop_rock.mesh" type="ArrayMesh" id=53]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInner_rock.mesh" type="ArrayMesh" id=54]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerInner_stone.mesh" type="ArrayMesh" id=55]
+[ext_resource path="res://Assets/Models/Environment/Blocks/cliff_cornerLarge_rock.mesh" type="ArrayMesh" id=56]
+
+[node name="Blocks" type="Spatial"]
+
+[node name="cliff_blockCave_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockCave_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockDiagonal_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockDiagonal_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 21 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockHalf_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockHalf_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockQuarter_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockQuarter_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeHalfWalls_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeHalfWalls_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeWalls_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeWalls_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlope_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlope_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_block_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_block_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cave_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 11 )
+material/0 = null
+
+[node name="cliff_cave_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="cliff_cornerInnerLarge_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 14 )
+material/0 = null
+
+[node name="cliff_cornerInnerLarge_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+
+[node name="cliff_cornerInnerTop_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerInnerTop_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerInner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 54 )
+material/0 = null
+
+[node name="cliff_cornerInner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 55 )
+material/0 = null
+
+[node name="cliff_cornerLarge_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 56 )
+material/0 = null
+
+[node name="cliff_cornerLarge_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 48 )
+material/0 = null
+
+[node name="cliff_cornerTop_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 53 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerTop_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 47 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_corner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 43 )
+material/0 = null
+
+[node name="cliff_corner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 30 )
+material/0 = null
+
+[node name="cliff_diagonal_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 29 )
+material/0 = null
+
+[node name="cliff_diagonal_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 34 )
+material/0 = null
+
+[node name="cliff_halfCornerInner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_halfCornerInner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_halfCorner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 41 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_halfCorner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 32 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_half_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 42 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_half_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_large_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 49 )
+material/0 = null
+
+[node name="cliff_large_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 28 )
+material/0 = null
+
+[node name="cliff_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 50 )
+material/0 = null
+
+[node name="cliff_stepsCornerInner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 44 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCornerInner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 45 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCorner_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCorner_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_steps_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 35 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_steps_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 46 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 36 )
+material/0 = null
+
+[node name="cliff_topDiagonal_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_topDiagonal_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 38 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_top_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_top_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_waterfallTop_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="cliff_waterfallTop_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 24 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="cliff_waterfall_rock" type="MeshInstance" parent="."]
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_waterfall_stone" type="MeshInstance" parent="."]
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null

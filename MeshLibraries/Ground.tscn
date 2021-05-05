@@ -1,0 +1,215 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverSplit.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverStraight.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverTile.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverSide.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverSideOpen.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverBendBank.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathCornerSmall.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathRocks.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathCross.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathBend.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathSplit.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathOpen.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverCornerSmall.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathCorner.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathBendBank.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathEndClosed.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathSide.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathStraight.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathTile.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverCorner.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_grass.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathSideOpen.mesh" type="ArrayMesh" id=22]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverCross.mesh" type="ArrayMesh" id=23]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverBend.mesh" type="ArrayMesh" id=24]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverEndClosed.mesh" type="ArrayMesh" id=25]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverOpen.mesh" type="ArrayMesh" id=26]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_pathEnd.mesh" type="ArrayMesh" id=27]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverRocks.mesh" type="ArrayMesh" id=28]
+[ext_resource path="res://Assets/Models/Environment/Ground/ground_riverEnd.mesh" type="ArrayMesh" id=29]
+
+[node name="Ground" type="Spatial"]
+
+[node name="ground_grass" type="MeshInstance" parent="."]
+mesh = ExtResource( 21 )
+material/0 = null
+
+[node name="ground_pathBend" type="MeshInstance" parent="."]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathBendBank" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCorner" type="MeshInstance" parent="."]
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCornerSmall" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCross" type="MeshInstance" parent="."]
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathEnd" type="MeshInstance" parent="."]
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathEndClosed" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathOpen" type="MeshInstance" parent="."]
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="ground_pathRocks" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSide" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSideOpen" type="MeshInstance" parent="."]
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSplit" type="MeshInstance" parent="."]
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathStraight" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathTile" type="MeshInstance" parent="."]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_riverBend" type="MeshInstance" parent="."]
+mesh = ExtResource( 24 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverBendBank" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCorner" type="MeshInstance" parent="."]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCornerSmall" type="MeshInstance" parent="."]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCross" type="MeshInstance" parent="."]
+mesh = ExtResource( 23 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverEnd" type="MeshInstance" parent="."]
+mesh = ExtResource( 29 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverEndClosed" type="MeshInstance" parent="."]
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverOpen" type="MeshInstance" parent="."]
+mesh = ExtResource( 26 )
+material/0 = null
+
+[node name="ground_riverRocks" type="MeshInstance" parent="."]
+mesh = ExtResource( 28 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="ground_riverSide" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverSideOpen" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverSplit" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverStraight" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverTile" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null

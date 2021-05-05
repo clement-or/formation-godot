@@ -1,0 +1,128 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtRowCorner.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/Models/Environment/Crops/crop_pumpkin.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/Models/Environment/Crops/corn.mesh" type="ArrayMesh" id=3]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_bambooStageB.mesh" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_cornStageB.mesh" type="ArrayMesh" id=5]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_cornStageA.mesh" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_bambooStageA.mesh" type="ArrayMesh" id=7]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtDoubleRow.mesh" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtRow.mesh" type="ArrayMesh" id=9]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtRowEnd.mesh" type="ArrayMesh" id=10]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_cornStageC.mesh" type="ArrayMesh" id=11]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtDoubleRowCorner.mesh" type="ArrayMesh" id=12]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtSingle.mesh" type="ArrayMesh" id=13]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_leafsStageA.mesh" type="ArrayMesh" id=14]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_leafsStageB.mesh" type="ArrayMesh" id=15]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_wheatStageA.mesh" type="ArrayMesh" id=16]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_wheatStageB.mesh" type="ArrayMesh" id=17]
+[ext_resource path="res://Assets/Models/Environment/Crops/crop_carrot.mesh" type="ArrayMesh" id=18]
+[ext_resource path="res://Assets/Models/Environment/Crops/crop_melon.mesh" type="ArrayMesh" id=19]
+[ext_resource path="res://Assets/Models/Environment/Crops/crop_turnip.mesh" type="ArrayMesh" id=20]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_cornStageD.mesh" type="ArrayMesh" id=21]
+[ext_resource path="res://Assets/Models/Environment/Crops/crops_dirtDoubleRowEnd.mesh" type="ArrayMesh" id=22]
+
+[node name="Crops" type="Spatial"]
+
+[node name="corn" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+
+[node name="crops_bambooStageA" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = null
+
+[node name="crops_bambooStageB" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = null
+
+[node name="crops_cornStageA" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = null
+
+[node name="crops_cornStageB" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = null
+
+[node name="crops_cornStageC" type="MeshInstance" parent="."]
+mesh = ExtResource( 11 )
+material/0 = null
+
+[node name="crops_cornStageD" type="MeshInstance" parent="."]
+mesh = ExtResource( 21 )
+material/0 = null
+
+[node name="crops_dirtDoubleRow" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtDoubleRowCorner" type="MeshInstance" parent="."]
+mesh = ExtResource( 12 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtDoubleRowEnd" type="MeshInstance" parent="."]
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRow" type="MeshInstance" parent="."]
+mesh = ExtResource( 9 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRowCorner" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRowEnd" type="MeshInstance" parent="."]
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtSingle" type="MeshInstance" parent="."]
+mesh = ExtResource( 13 )
+material/0 = null
+material/1 = null
+
+[node name="crops_leafsStageA" type="MeshInstance" parent="."]
+mesh = ExtResource( 14 )
+material/0 = null
+
+[node name="crops_leafsStageB" type="MeshInstance" parent="."]
+mesh = ExtResource( 15 )
+material/0 = null
+
+[node name="crops_wheatStageA" type="MeshInstance" parent="."]
+mesh = ExtResource( 16 )
+material/0 = null
+
+[node name="crops_wheatStageB" type="MeshInstance" parent="."]
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+
+[node name="crop_carrot" type="MeshInstance" parent="."]
+mesh = ExtResource( 18 )
+material/0 = null
+material/1 = null
+
+[node name="crop_melon" type="MeshInstance" parent="."]
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="crop_pumpkin" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+
+[node name="crop_turnip" type="MeshInstance" parent="."]
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
